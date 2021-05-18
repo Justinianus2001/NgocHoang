@@ -419,7 +419,6 @@ header {
     width: 991px;
     height: 34px;
     left: 225px;
-    top: 8px;
 }
 
 .line-3 {
@@ -786,4 +785,608 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
+}
+
+.banner {
+    position: absolute;
+    width: 1440px;
+    height: 598px;
+    left: 0px;
+    top: 202px;
+    background: #CDDDF0;
+}
+
+.banner-img {
+    position: absolute;
+    width: 1431px;
+    height: 598px;
+    left: 0px;
+}
+
+.banner-new-season {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 130px;
+    top: 103px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.line-4 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 220px;
+    top: 115px;
+    border: 1px solid #1A1A1A;
+}
+
+.banner-text-1 {
+    position: absolute;
+    width: 450px;
+    height: 73px;
+    left: 130px;
+    top: 137px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A1A;
+}
+
+.banner-text-2 {
+    position: absolute;
+    width: 565px;
+    height: 73px;
+    left: 230px;
+    top: 223px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A1A;
+}
+
+.banner-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 130px;
+    top: 394px;
+    background: #1A1A1A;
+}
+
+.banner-button-text {
+    position: static;
+    width: 57px;
+    height: 18px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner-watch {
+    position: absolute;
+    width: 129.91px;
+    height: 26px;
+    left: 330px;
+    top: 400px;
+}
+
+.banner-watch-text {
+    position: absolute;
+    left: 31.49%;
+    right: 0%;
+    top: 15.38%;
+    bottom: 15.38%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.banner-slide {
+    position: absolute;
+    width: 136px;
+    height: 2px;
+    left: 130px;
+    top: 527px;
+}
+
+.banner-slide-1 {
+    position: absolute;
+    left: 0%;
+    right: 70.59%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #FFFFFF;
+}
+
+.banner-slide-2 {
+    position: absolute;
+    left: 35.29%;
+    right: 35.29%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #B3C4D7;
+}
+
+.banner-slide-3 {
+    position: absolute;
+    left: 70.59%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #B3C4D7;
+}
+
+.brands {
+    position: absolute;
+    width: 1440px;
+    height: 147px;
+    left: 0px;
+    top: 800px;
+}
+
+.branding {
+    position: absolute;
+    width: 945px;
+    height: 67px;
+    left: 129px;
+    top: 40px;
+}
+
+.nike-logo {
+    position: absolute;
+    width: 83px;
+    height: 60px;
+    top: 3.5px;
+}
+
+.adidas-logo {
+    position: absolute;
+    width: 62px;
+    height: 60px;
+    left: 155px;
+    top: 3.5px;
+}
+
+.route-one-logo {
+    position: absolute;
+    width: 135px;
+    height: 67px;
+    left: 289px;
+}
+
+.vans-logo {
+    position: absolute;
+    width: 128px;
+    height: 67px;
+    left: 496px;
+}
+
+.carhartt-logo {
+    position: absolute;
+    width: 128px;
+    height: 67px;
+    left: 696px;
+}
+
+.santa-cruz-logo {
+    position: absolute;
+    width: 49px;
+    height: 60px;
+    left: 896px;
+    top: 3.5px;
+}
+
+.line-5 {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 74%;
+    top: 73.5px;
+    border: 1px solid #F1F1F1;
+    transform: rotate(90deg);
+}
+
+.line-6 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 1154px;
+    top: 77px;
+    border: 1px solid #1A1A1A;
+}
+
+.explore-brands {
+    position: absolute;
+    width: 107px;
+    height: 18px;
+    left: 1202px;
+    top: 64.5px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #1A1A1A;
+}
+
+.container-1 {
+    position: absolute;
+    width: 1180px;
+    height: 654px;
+    left: 130px;
+    top: 1067px;
+}
+
+.container-1-name {
+    position: absolute;
+    width: 345px;
+    height: 50px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+.line-7 {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 361px;
+    top: 36px;
+    border: 2px solid #1A1A1A;
+}
+
+.hoody {
+    position: absolute;
+    width: 380px;
+    height: 504px;
+    bottom: 0%;
+}
+
+.hat {
+    position: absolute;
+    width: 200px;
+    height: 251.47px;
+    top: 22.94%;
+    right: 0%;
+}
+
+.shoes {
+    position: absolute;
+    width: 329.83px;
+    height: 295px;
+    bottom: 0%;
+    right: 4.08%;
+}
+
+.container-1-text {
+    position: absolute;
+    width: 778px;
+    height: 448px;
+    left: 25.42%;
+    bottom: 0%;
+}
+
+.container-1-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 31px;
+    position: absolute;
+    width: 132px;
+    height: 38px;
+    bottom: 0%;
+    left: 25.71%;
+    background: #1A1A1A;
+}
+
+.container-1-button-text {
+    position: static;
+    width: 70px;
+    height: 18px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-1-text-1 {
+    position: absolute;
+    width: 484px;
+    height: 150px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 150px;
+    color: #1A1A1A;
+    box-sizing: border-box;
+}
+
+.container-1-text-2 {
+    position: absolute;
+    width: 578px;
+    height: 150px;
+    left: 25.71%;
+    top: 26.79%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 150px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-shadow: -2px -2px 0 #1A1A1A, 2px -2px 0 #1A1A1A, -2px 2px 0 #1A1A1A, 2px 2px 0 #1A1A1A;
+}
+
+.container-1-text-3 {
+    position: absolute;
+    width: 280px;
+    height: 36px;
+    left: 25.71%;
+    bottom: 31.25%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A1A1A;
+}
+
+.container-2 {
+    position: absolute;
+    width: 1179.45px;
+    height: 586px;
+    left: 130px;
+    top: 1901px;
+}
+
+.container-2-name {
+    position: absolute;
+    width: 873px;
+    height: 50px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+.line-8 {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 889px;
+    top: 36px;
+    border: 2px solid #1A1A1A;
+}
+
+.container-2-slide {
+    position: absolute;
+    width: 136px;
+    height: 2px;
+    left: 608px;
+    top: 150px;
+}
+
+.container-2-slide-1 {
+    position: absolute;
+    left: 0%;
+    right: 70.59%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #9A9A9A;
+}
+
+.container-2-slide-2 {
+    position: absolute;
+    left: 35.29%;
+    right: 35.29%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #F1F1F1;
+}
+
+.container-2-slide-3 {
+    position: absolute;
+    left: 70.59%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 1px solid #F1F1F1;
+}
+
+.converse-1 {
+    position: absolute;
+    width: 580px;
+    height: 436px;
+    bottom: 0%;
+}
+
+.converse-2 {
+    position: absolute;
+    width: 612px;
+    height: 441px;
+    right: 5.04%;
+    bottom: -5.63%;
+}
+
+.rectangle-3 {
+    position: absolute;
+    width: 60px;
+    height: 155.83px;
+    right: 0%;
+    bottom: 23.9%;
+}
+
+.button-left {
+    position: absolute;
+    width: 60px;
+    height: 59.83px;
+}
+
+.button-right {
+    position: absolute;
+    width: 60px;
+    height: 59.83px;
+    bottom: 0%;
+}
+
+.route-one {
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    left: 0px;
+    top: 2667px;
+    background: #DCE6FF;
+}
+
+.route-one-name {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 130px;
+    top: 100px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.line-9 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 220px;
+    top: 111px;
+    border: 1px solid #1A1A1A;
+}
+
+.route-one-text-1 {
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 9.03%;
+    top: 23.93%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1A1A1A;
+}
+
+.route-one-text-2 {
+    position: absolute;
+    width: 376px;
+    height: 60px;
+    left: 9.03%;
+    top: 36.07%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1A1A1A;
+}
+
+.route-one-text-3 {
+    position: absolute;
+    width: 280px;
+    height: 54px;
+    left: 9.03%;
+    bottom: 39.29%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A1A1A;
+}
+
+.route-one-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 9.03%;
+    bottom: 17.86%;
+    background: #1A1A1A;
+}
+
+.route-one-button-text {
+    position: static;
+    width: 57px;
+    height: 18px;
+    left: 32px;
+    top: 10px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.route-one-apollo {
+    position: absolute;
+    width: 970px;
+    height: 574px;
+    bottom: 22.86%;
+}
+
+.route-one-apollo-1 {
+    position: absolute;
+    width: 412px;
+    height: 574px;
+    left: 484px;
+    /* top: 2525px; */
+    /* top: 12.37%;
+    margin-top: 71px; */
 }
