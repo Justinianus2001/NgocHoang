@@ -39,6 +39,15 @@ header {
     top: 0px;
 }
 
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 523px;
+    left: 0px;
+    top: 5793px;
+    background: #1A1A1A;
+}
+
 .rectangle-1 {
     position: absolute;
     width: 1440px;
@@ -148,7 +157,7 @@ header {
     top: 35px;
 }
 
-.cordes {
+.header-cordes {
     position: absolute;
     width: 120px;
     height: 50px;
@@ -1989,5 +1998,406 @@ header {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-cordes {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 9.03%;
+    top: 15.3%;
+    font-family: Germania One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.footer-about {
+    position: absolute;
+    width: 220px;
+    height: 198px;
+    left: 9.03%;
+    top: 36.33%;
+}
+
+.footer-about-name {
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.line-14 {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    top: 16.16%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-about-1 {
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    bottom: 62.63%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-2 {
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    bottom: 47.47%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-3 {
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    bottom: 32.32%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-4 {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    bottom: 17.17%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-5 {
+    position: absolute;
+    width: 63px;
+    height: 18px;
+    bottom: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-6 {
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    left: 72.73%;
+    bottom: 62.63%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-7 {
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    left: 72.73%;
+    bottom: 47.47%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-8 {
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 72.73%;
+    bottom: 32.32%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-about-9 {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 72.73%;
+    bottom: 17.17%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-store {
+    position: absolute;
+    width: 180px;
+    height: 172px;
+    left: 36.81%;
+    top: 36.33%;
+}
+
+.footer-store-name {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.line-15 {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    top: 18.6%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-store-1 {
+    position: absolute;
+    width: 162px;
+    height: 18px;
+    bottom: 62.79%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-store-2 {
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    bottom: 45.35%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-store-3 {
+    position: absolute;
+    width: 136px;
+    height: 18px;
+    bottom: 27.91%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-store-4 {
+    position: absolute;
+    width: 180px;
+    height: 36px;
+    bottom: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-credit {
+    position: absolute;
+    width: 120px;
+    height: 108px;
+    right: 34.03%;
+    top: 36.33%;
+}
+
+.footer-credit-name {
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.line-16 {
+    position: absolute;
+    width: 120px;
+    height: 0px;
+    top: 29.63%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-credit-1 {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    bottom: 32.48%;
+}
+
+.footer-credit-image {
+    position: absolute;
+    top: 11.11%;
+}
+
+.footer-credit-text {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 31.92%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-credit-2 {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    bottom: 0%;
+}
+
+.footer-social {
+    position: absolute;
+    width: 156px;
+    height: 72px;
+    right: 10.69%;
+    top: 36.33%;
+}
+
+.footer-social-name {
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.line-17 {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    top: 44.44%;
+    border: 1px solid #FFFFFF;
+}
+
+.facebook {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0%;
+}
+
+.instagram {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 17.95%;
+    bottom: 0%;
+}
+
+.pinterest {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 33.79%;
+    bottom: 0%;
+}
+
+.twitter {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0%;
+    right: 35.9%;
+}
+
+.snapchat {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 17.95%;
+    bottom: 0%;
+}
+
+.linkedin {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 0%;
+    bottom: 0%;
+}
+
+.line-18 {
+    position: absolute;
+    width: 1180px;
+    height: 0px;
+    left: 9.03%;
+    bottom: 10.52%;
+    border: 0.5px solid #9A9A9A;
+}
+
+.copyright {
+    position: absolute;
+    width: 249px;
+    height: 15px;
+    left: 9.03%;
+    bottom: 3.82%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
     color: #FFFFFF;
 }
