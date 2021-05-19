@@ -1379,14 +1379,615 @@ header {
     width: 970px;
     height: 574px;
     bottom: 22.86%;
+    right: -0.97%;
 }
 
 .route-one-apollo-1 {
     position: absolute;
     width: 412px;
     height: 574px;
-    left: 484px;
-    /* top: 2525px; */
-    /* top: 12.37%;
-    margin-top: 71px; */
+    margin-top: 71px;
+    object-fit: contain;
+}
+
+.route-one-apollo-2 {
+    position: absolute;
+    width: 410px;
+    height: 574px;
+    left: 14.54%;
+    margin-top: 71px;
+    object-fit: contain;
+}
+
+.route-one-apollo-3 {
+    position: absolute;
+    width: 411px;
+    height: 574px;
+    right: 28.76%;
+    margin-top: 71px;
+    object-fit: contain;
+}
+
+.route-one-apollo-4 {
+    position: absolute;
+    width: 411px;
+    height: 574px;
+    right: 14.33%;
+    margin-top: 71px;
+    object-fit: contain;
+}
+
+.route-one-apollo-5 {
+    position: absolute;
+    width: 410px;
+    height: 574px;
+    right: 0%;
+    margin-top: 70px;
+    object-fit: contain;
+}
+
+.container-3 {
+    position: absolute;
+    width: 1180px;
+    height: 994px;
+    left: 130px;
+    top: 3407px;
+}
+
+.container-3-name {
+    position: absolute;
+    width: 274px;
+    height: 50px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+.line-10 {
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 290px;
+    top: 35px;
+    border: 2px solid #1A1A1A;
+}
+
+.release-1 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    top: 15.09%;
+}
+
+.release-image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 25.39%;
+    background: url(../image/background.svg);
+}
+
+.release-favourite {
+    position: absolute;
+    left: 85.71%;
+    right: 7.14%;
+    top: 5.24%;
+    bottom: 90.05%;
+}
+
+.release-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 74.61%;
+    bottom: 0%;
+    background: #FFFFFF;
+}
+
+.release-name {
+    position: absolute;
+    left: 7.14%;
+    right: 7.14%;
+    top: 20.62%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A1A1A;
+}
+
+.release-price {
+    position: absolute;
+    left: 7.14%;
+    right: 72.5%;
+    bottom: 20.62%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
+
+.release-sold {
+    position: absolute;
+    right: 7.14%;
+    bottom: 21.65%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #1A1A1A;
+}
+
+.release-2 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    left: 25.42%;
+    top: 15.09%;
+}
+
+.release-3 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    right: 25.42%;
+    top: 15.09%;
+}
+
+.release-4 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    right: 0%;
+    top: 15.09%;
+}
+
+.release-5 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    bottom: 0%;
+}
+
+.release-6 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    left: 25.42%;
+    bottom: 0%;
+}
+
+.release-7 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    right: 25.42%;
+    bottom: 0%;
+}
+
+.release-8 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+    right: 0%;
+    bottom: 0%;
+}
+
+.container-4 {
+    position: absolute;
+    width: 1180px;
+    height: 856px;
+    left: 130px;
+    top: 4581px;
+}
+
+.container-4-1 {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: #AEEBFF;
+}
+
+.container-4-1-image {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: url(../image/cookie-1.svg);
+}
+
+.container-4-1-gradient {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
+}
+
+.container-4-1-text-1 {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 17.24%;
+    top: 19.14%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.line-11 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 190px;
+    top: 91px;
+    border: 1px solid #FFFFFF;
+}
+
+.container-4-1-text-2 {
+    position: absolute;
+    width: 153px;
+    height: 65px;
+    left: 17.24%;
+    top: 25.36%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.container-4-1-text-3 {
+    position: absolute;
+    width: 119px;
+    height: 65px;
+    left: 34.48%;
+    bottom: 41.63%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.container-4-1-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 17.24%;
+    bottom: 19.14%;
+    background: #FFFFFF;
+}
+
+.container-4-1-button-text {
+    position: static;
+    width: 57px;
+    height: 18px;
+    left: 32px;
+    top: 10px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-4-2 {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    right: 0%;
+    background: #AEEBFF;
+}
+
+.container-4-2-image {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: url(../image/cookie-2.svg);
+}
+
+.container-4-2-gradient {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
+}
+
+.container-4-2-text-1 {
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 17.24%;
+    top: 19.14%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.line-12 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 150px;
+    top: 91px;
+    border: 1px solid #FFFFFF;
+}
+
+.container-4-2-text-2 {
+    position: absolute;
+    width: 153px;
+    height: 65px;
+    left: 17.24%;
+    top: 25.36%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.container-4-2-text-3 {
+    position: absolute;
+    width: 119px;
+    height: 65px;
+    left: 34.48%;
+    bottom: 41.63%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.container-4-2-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 17.24%;
+    bottom: 19.14%;
+    background: #FFFFFF;
+}
+
+.container-4-2-button-text {
+    position: static;
+    width: 57px;
+    height: 18px;
+    left: 32px;
+    top: 10px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-4-3 {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    bottom: 0%;
+    background: url(../image/cookie-3.svg);
+}
+
+.container-4-3-gradient {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
+}
+
+.container-4-3-play-button {
+    position: absolute;
+    width: 96.73px;
+    height: 97px;
+    top: 38.28%;
+    left: 41.37%;
+}
+
+.container-4-4 {
+    position: absolute;
+    width: 580px;
+    height: 418px;
+    right: 0%;
+    bottom: 0%;
+}
+
+.container-4-4-text-1 {
+    position: absolute;
+    width: 179px;
+    height: 65px;
+    left: 17.24%;
+    top: 9.57%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.container-4-4-text-2 {
+    position: absolute;
+    width: 366px;
+    height: 65px;
+    left: 17.24%;
+    top: 25.12%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.container-4-4-text-3 {
+    position: absolute;
+    width: 383px;
+    height: 90px;
+    left: 17.24%;
+    top: 46.41%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #1A1A1A;
+}
+
+.container-4-4-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 17.24%;
+    bottom: 9.57%;
+    background: #1A1A1A;
+    mix-blend-mode: normal;
+}
+
+.container-4-4-button-text {
+    position: static;
+    width: 57px;
+    height: 18px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.subscribe {
+    position: absolute;
+    width: 1440px;
+    height: 236px;
+    left: 0px;
+    top: 5557px;
+}
+
+.rectangle-4 {
+    position: absolute;
+    width: 197px;
+    height: 76px;
+    left: 22.92%;
+    top: 33.9%;
+}
+
+.subscribe-text-1 {
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A1A1A;
+}
+
+.line-13 {
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    right: 31.74%;
+    top: 18.42%;
+    border: 1px solid #1A1A1A;
+}
+
+.subscribe-text-2 {
+    position: absolute;
+    width: 197px;
+    height: 50px;
+    bottom: 0%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.subscribe-box {
+    position: absolute;
+    width: 480px;
+    height: 38px;
+    right: 22.92%;
+    top: 41.95%;
+}
+
+.subscribe-input {
+    position: absolute;
+    width: 355px;
+    height: 38px;
+}
+
+.subscribe-button {
+    position: absolute;
+    width: 125px;
+    height: 38px;
+    right: 0%;
+    background: #1A1A1A;
+}
+
+.subscribe-button-text {
+    position: absolute;
+    left: 25.6%;
+    right: 25.6%;
+    top: 26.32%;
+    bottom: 26.32%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
 }
