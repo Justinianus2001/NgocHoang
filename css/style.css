@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: normal;
 }
 
 a {
@@ -19,31 +22,16 @@ body {
     background: #FBFBFB;
 }
 
-text {
-    position: absolute;
-    width: 0px;
-    height: 32px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 100%;
-    color: #1A1A1A;
-}
-
 header {
     position: absolute;
     width: 1440px;
     height: 202px;
-    left: 0px;
-    top: 0px;
 }
 
 footer {
     position: absolute;
     width: 1440px;
     height: 523px;
-    left: 0px;
     top: 5793px;
     background: #1A1A1A;
 }
@@ -52,8 +40,8 @@ footer {
     position: absolute;
     width: 1440px;
     height: 32px;
-    left: calc(50% - 1440px/2);
-    top: 0px;
+    font-size: 12px;
+    color: #F1F1F1;
     background: #1A1A1A;
 }
 
@@ -61,8 +49,8 @@ footer {
     position: absolute;
     width: 106.36px;
     height: 15px;
-    left: 130.64px;
-    top: 8px;
+    top: 25%;
+    left: 9.07%;
 }
 
 .phone-icon {
@@ -74,24 +62,19 @@ footer {
 .phone-number {
     position: absolute;
     width: 84px;
-    right: 0px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #F1F1F1;
+    height: 15px;
+    right: 0%;
 }
 
 .address {
     position: absolute;
     width: 254.74px;
     height: 15px;
-    left: 268.26px;
-    top: 8px;
+    top: 25%;
+    left: 18.63%;
 }
 
-.pin {
+.pin-icon {
     position: absolute;
     width: 10.97px;
     height: 14px;
@@ -101,22 +84,15 @@ footer {
     position: absolute;
     width: 235px;
     height: 15px;
-    top: 0%;
     right: 0%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #F1F1F1;
 }
 
 .star {
     position: absolute;
     width: 278.67px;
     height: 15px;
-    left: 1032px;
-    top: 8px;
+    top: 25%;
+    right: 8.98%;
 }
 
 .star-icon {
@@ -129,43 +105,32 @@ footer {
     position: absolute;
     width: 182px;
     height: 15px;
-    right: 0px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #F1F1F1;
+    right: 0%;
 }
 
 .rectangle-2 {
     position: absolute;
     width: 1440px;
     height: 120px;
-    left: 0px;
     top: 32px;
-    background: #FBFBFB;
-    mix-blend-mode: screen;
-    backdrop-filter: blur(84px);
 }
 
 .logo {
     position: absolute;
     width: 120px;
     height: 50px;
-    left: 130px;
-    top: 35px;
+    top: 29.17%;
+    left: 9.03%;
 }
 
 .header-cordes {
     position: absolute;
     width: 120px;
     height: 50px;
+    top: 29.17%;
+    left: 9.03%;
     font-family: Germania One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 43px;
-    line-height: 50px;
     color: #1A1A1A;
 }
 
@@ -173,124 +138,71 @@ footer {
     position: absolute;
     width: 170px;
     height: 120px;
-    left: 298px;
+    left: 20.69%;
 }
 
 .women {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 50px 20px;
     position: absolute;
     width: 98px;
     height: 120px;
-    right: 0px;
-}
-
-.women-text {
-    position: static;
-    width: 58px;
-    height: 20px;
-    left: 20px;
-    top: 50px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
+    right: 0%;
     color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-bottom: 10px;
 }
 
 .men {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 50px 20px;
     position: absolute;
     width: 72px;
     height: 120px;
-}
-
-.men-text {
-    position: static;
-    width: 32px;
-    height: 20px;
-    left: 20px;
-    top: 50px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
     color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-bottom: 10px;
 }
 
-.line-2 {
+.line-1 {
     position: absolute;
     width: 32px;
-    height: 0px;
-    left: 318px;
-    top: 74px;
-    border: 2px solid #1A1A1A;
-    transform: rotate(180deg);
+    height: 2px;
+    bottom: 36.67%;
+    left: 11.76%;
+    border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .search-box {
     position: absolute;
     width: 380px;
     height: 38px;
-    left: 530px;
-    top: 41px;
+    top: 34.17%;
+    left: 36.81%;
 }
 
 .search-input {
     position: absolute;
     width: 280px;
     height: 38px;
-
     background: #FFFFFF;
     border: 1px solid #9A9A9A;
-    box-sizing: border-box;
 }
 
 .search-button {
     position: absolute;
     width: 100px;
     height: 38px;
-    right: 0px;
+    right: 0%;
     background: #1A1A1A;
 }
 
 .search-icon {
     position: absolute;
-    left: 16%;
-    right: 70%;
     top: 31.58%;
-    bottom: 31.58%;
+    left: 16%;
 }
 
 .search-button-text {
     position: absolute;
-    left: 38%;
-    right: 16%;
     top: 26.32%;
-    bottom: 26.32%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
+    left: 38%;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -298,27 +210,29 @@ footer {
     position: absolute;
     width: 109.91px;
     height: 35px;
-    left: 980.27px;
-    top: 42px;
+    top: 35%;
+    right: 24.29%;
+}
+
+.account-icon-1 {
+    position: absolute;
+    width: 20.97px;
+    height: 20px;
+    bottom: 20%;
 }
 
 .account-info {
     position: absolute;
     width: 70.19px;
     height: 35px;
-    right: 0px;
+    right: 0%;
 }
 
 .account-log-in-out {
     position: absolute;
     width: 70px;
     height: 13px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
-    line-height: 12px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -326,36 +240,25 @@ footer {
     position: absolute;
     width: 54px;
     height: 18px;
-    bottom: 0px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
+    bottom: 0%;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
-}
-
-.account-icon-1 {
-    position: absolute;
-    width: 20.97px;
-    height: 20px;
-    top: 8px;
 }
 
 .account-icon-2 {
     position: absolute;
+    width: 12px;
     height: 6px;
     right: 0%;
-    bottom: 20%;
+    bottom: 17.14%;
 }
 
 .wishlist {
     position: absolute;
     width: 90.76px;
     height: 18px;
-    left: 1122.1px;
-    top: 51px;
+    top: 42.5%;
+    right: 15.77%;
 }
 
 .wishlist-icon {
@@ -369,12 +272,7 @@ footer {
     width: 50px;
     height: 18px;
     right: 0%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -382,8 +280,8 @@ footer {
     position: absolute;
     width: 68.45px;
     height: 20px;
-    left: 1241.41px;
-    top: 50px;
+    top: 41.67%;
+    right: 9.04%;
 }
 
 .cart-icon {
@@ -396,26 +294,23 @@ footer {
     position: absolute;
     width: 29px;
     height: 18px;
+    top: 5%;
     right: 0%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
 }
 
-.line-1 {
+.line-2 {
     position: absolute;
     width: 1170px;
-    height: 0px;
-    left: 135px;
-    top: 120px;
+    height: 2px;
+    bottom: 0%;
+    left: 9.03%;
     border: 1px solid #F1F1F1;
+    background-color: #F1F1F1;
 }
 
-.navigation-bar {
+.rectangle-3 {
     position: absolute;
     width: 1440px;
     height: 50px;
@@ -427,426 +322,156 @@ footer {
     position: absolute;
     width: 991px;
     height: 34px;
-    left: 225px;
+    top: 16%;
+    right: 15.56%;
 }
 
-.line-3 {
+.line-3-1, .line-3-2, .line-3-3, .line-3-4,
+.line-3-5, .line-3-6, .line-3-7, .line-3-8 {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    bottom: 100%;
+    width: 2px;
+    height: 16px;
+    top: 26.47%;
+    border: 1px solid #F1F1F1;
+    background-color: #F1F1F1;
 }
 
 .line-3-1 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 97px;
-    top: 17px;
+    left: 9.79%;
 }
 
 .line-3-2 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 208px;
-    top: 17px;
+    left: 20.99%;
 }
 
 .line-3-3 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 304px;
-    top: 17px;
+    left: 30.68%;
 }
 
 .line-3-4 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 429px;
-    top: 17px;
+    left: 43.29%;
 }
 
 .line-3-5 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 562px;
-    top: 17px;
+    right: 43.29%;
 }
 
 .line-3-6 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 688px;
-    top: 17px;
+    right: 30.58%;
 }
 
 .line-3-7 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 791px;
-    top: 17px;
+    right: 20.18%;
 }
 
 .line-3-8 {
     position: absolute;
-    width: 0px;
-    height: 16px;
-    left: 910px;
-    top: 17px;
+    right: 8.17%;
 }
 
-.link-list {
+.link-1, .link-2, .link-3, .link-4, .link-5,
+.link-6, .link-7, .link-8, .link-9 {
     position: absolute;
-    width: 991px;
-    height: 34px;
-    top: 8px;
+    height: 18px;
+    top: 23.53%;
+    font-size: 14px;
+    color: #171717;
 }
 
 .link-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 93px;
-    height: 34px;
-    /* left: 225px; */
-    border-radius: 5px;
-}
-
-.link-text-1 {
-    position: static;
-    width: 45px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #171717;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    left: 2.42%;
 }
 
 .link-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 103px;
-    height: 34px;
-    left: 101px;
-    border-radius: 5px;
-}
-
-.link-text-2 {
-    position: static;
-    width: 55px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    left: 12.61%;
 }
 
 .link-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 88px;
-    height: 34px;
-    left: 212px;
-    border-radius: 5px;
-}
-
-.link-text-3 {
-    position: static;
-    width: 40px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    left: 23.81%;
 }
 
 .link-4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 117px;
-    height: 34px;
-    left: 308px;
-    border-radius: 5px;
-}
-
-.link-text-4 {
-    position: static;
-    width: 69px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    left: 33.5%;
 }
 
 .link-5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 125px;
-    height: 34px;
-    left: 433px;
-    border-radius: 5px;
-}
-
-.link-text-5 {
-    position: static;
-    width: 77px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    left: 46.12%;
 }
 
 .link-6 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 118px;
-    height: 34px;
-    left: 566px;
-    border-radius: 5px;
-}
-
-.link-text-6 {
-    position: static;
-    width: 70px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    right: 33.4%;
 }
 
 .link-7 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 95px;
-    height: 34px;
-    left: 692px;
-    border-radius: 5px;
-}
-
-.link-text-7 {
-    position: static;
-    width: 47px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    right: 23.01%;
 }
 
 .link-8 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 111px;
-    height: 34px;
-    left: 795px;
-    border-radius: 5px;
-}
-
-.link-text-8 {
-    position: static;
-    width: 63px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    right: 11%;
 }
 
 .link-9 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
     position: absolute;
-    width: 77px;
-    height: 34px;
-    left: 914px;
-    border-radius: 5px;
-}
-
-.link-text-9 {
-    position: static;
-    width: 29px;
-    height: 18px;
-    left: 24px;
-    top: 8px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
+    right: 2.42%;
 }
 
 .banner {
     position: absolute;
     width: 1440px;
     height: 598px;
-    left: 0px;
     top: 202px;
     background: #CDDDF0;
 }
 
-.banner-img {
+.banner-image {
     position: absolute;
     width: 1431px;
     height: 598px;
-    left: 0px;
 }
 
 .banner-new-season {
     position: absolute;
     width: 84px;
     height: 18px;
-    left: 130px;
-    top: 103px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
+    top: 17.22%;
+    left: 9.03%;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
 }
 
 .line-4 {
     position: absolute;
     width: 40px;
-    height: 0px;
-    left: 220px;
-    top: 115px;
+    height: 2px;
+    top: 19.57%;
+    left: 15.28%;
     border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .banner-text-1 {
     position: absolute;
     width: 450px;
     height: 73px;
-    left: 130px;
-    top: 137px;
-    font-family: Lexend;
-    font-style: normal;
+    top: 22.91%;
+    left: 9.03%;
     font-weight: 600;
     font-size: 58px;
-    line-height: 72px;
     color: #1A1A1A;
 }
 
@@ -854,26 +479,19 @@ footer {
     position: absolute;
     width: 565px;
     height: 73px;
-    left: 230px;
-    top: 223px;
-    font-family: Lexend;
-    font-style: normal;
+    top: 37.29%;
+    left: 15.97%;
     font-weight: 600;
     font-size: 58px;
-    line-height: 72px;
     color: #1A1A1A;
 }
 
 .banner-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 32px;
     position: absolute;
     width: 121px;
     height: 38px;
-    left: 130px;
-    top: 394px;
+    bottom: 29.43%;
+    left: 9.03%;
     background: #1A1A1A;
 }
 
@@ -881,24 +499,17 @@ footer {
     position: static;
     width: 57px;
     height: 18px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    margin: 10px 32px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .banner-watch {
     position: absolute;
     width: 129.91px;
     height: 26px;
-    left: 330px;
-    top: 400px;
+    bottom: 30.43%;
+    left: 22.92%;
 }
 
 .banner-watch-text {
@@ -906,13 +517,8 @@ footer {
     left: 31.49%;
     right: 0%;
     top: 15.38%;
-    bottom: 15.38%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -920,42 +526,44 @@ footer {
     position: absolute;
     width: 136px;
     height: 2px;
-    left: 130px;
-    top: 527px;
+    bottom: 11.54%;
+    left: 9.03%;
+}
+
+.banner-slide-1, .banner-slide-2, .banner-slide-3 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
 }
 
 .banner-slide-1 {
     position: absolute;
     left: 0%;
     right: 70.59%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .banner-slide-2 {
     position: absolute;
     left: 35.29%;
     right: 35.29%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #B3C4D7;
+    background-color: #B3C4D7;
 }
 
 .banner-slide-3 {
     position: absolute;
     left: 70.59%;
     right: 0%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #B3C4D7;
+    background-color: #B3C4D7;
 }
 
 .brands {
     position: absolute;
     width: 1440px;
     height: 147px;
-    left: 0px;
     top: 800px;
 }
 
@@ -963,85 +571,88 @@ footer {
     position: absolute;
     width: 945px;
     height: 67px;
-    left: 129px;
-    top: 40px;
+    top: 27.21%;
+    left: 8.96%;
 }
 
 .nike-logo {
     position: absolute;
     width: 83px;
     height: 60px;
-    top: 3.5px;
+    top: 5.97%;
+    background: url(../image/nike-logo.svg);
 }
 
 .adidas-logo {
     position: absolute;
     width: 62px;
     height: 60px;
-    left: 155px;
-    top: 3.5px;
+    top: 5.97%;
+    left: 16.4%;
+    background: url(../image/adidas-logo.svg);
 }
 
 .route-one-logo {
     position: absolute;
     width: 135px;
     height: 67px;
-    left: 289px;
+    left: 30.58%;
+    background: url(../image/route-one-logo.svg);
 }
 
 .vans-logo {
     position: absolute;
     width: 128px;
     height: 67px;
-    left: 496px;
+    right: 33.97%;
+    background: url(../image/vans-logo.svg);
 }
 
 .carhartt-logo {
     position: absolute;
     width: 128px;
     height: 67px;
-    left: 696px;
+    right: 12.8%;
+    background: url(../image/carhartt-logo.svg);
 }
 
 .santa-cruz-logo {
     position: absolute;
     width: 49px;
     height: 60px;
-    left: 896px;
-    top: 3.5px;
+    top: 5.97%;
+    right: 0%;
+    background: url(../image/santa-cruz-logo.svg);
 }
 
 .line-5 {
     position: absolute;
-    width: 80px;
-    height: 0px;
-    left: 74%;
-    top: 73.5px;
+    left: 76.8%;
+    right: 23.2%;
+    top: 23.13%;
+    bottom: 22.45%;
     border: 1px solid #F1F1F1;
-    transform: rotate(90deg);
+    background-color: #F1F1F1;
 }
 
 .line-6 {
     position: absolute;
     width: 40px;
-    height: 0px;
-    left: 1154px;
-    top: 77px;
+    height: 2px;
+    right: 17.08%;
+    bottom: 46.26%;
     border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
-.explore-brands {
+.brands-text {
     position: absolute;
     width: 107px;
     height: 18px;
-    left: 1202px;
-    top: 64.5px;
-    font-family: Lexend;
-    font-style: normal;
+    right: 9.1%;
+    bottom: 43.54%;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
-    text-align: right;
     color: #1A1A1A;
 }
 
@@ -1057,21 +668,19 @@ footer {
     position: absolute;
     width: 345px;
     height: 50px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 50px;
     color: #1A1A1A;
 }
 
 .line-7 {
     position: absolute;
     width: 60px;
-    height: 0px;
-    left: 361px;
-    top: 36px;
+    height: 2px;
+    top: 6.12%;
+    left: 30.59%;
     border: 2px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .hoody {
@@ -1105,46 +714,13 @@ footer {
     bottom: 0%;
 }
 
-.container-1-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 31px;
-    position: absolute;
-    width: 132px;
-    height: 38px;
-    bottom: 0%;
-    left: 25.71%;
-    background: #1A1A1A;
-}
-
-.container-1-button-text {
-    position: static;
-    width: 70px;
-    height: 18px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
 .container-1-text-1 {
     position: absolute;
     width: 484px;
     height: 150px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 120px;
-    line-height: 150px;
     color: #1A1A1A;
-    box-sizing: border-box;
 }
 
 .container-1-text-2 {
@@ -1153,12 +729,8 @@ footer {
     height: 150px;
     left: 25.71%;
     top: 26.79%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 120px;
-    line-height: 150px;
-    box-sizing: border-box;
     color: #FFFFFF;
     text-shadow: -2px -2px 0 #1A1A1A, 2px -2px 0 #1A1A1A, -2px 2px 0 #1A1A1A, 2px 2px 0 #1A1A1A;
 }
@@ -1169,12 +741,28 @@ footer {
     height: 36px;
     left: 25.71%;
     bottom: 31.25%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #1A1A1A;
+}
+
+.container-1-button {
+    position: absolute;
+    width: 132px;
+    height: 38px;
+    bottom: 0%;
+    left: 25.71%;
+    background: #1A1A1A;
+}
+
+.container-1-button-text {
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    font-size: 14px;
+    margin: 10px 32px;
+    color: #FFFFFF;
 }
 
 .container-2 {
@@ -1189,37 +777,39 @@ footer {
     position: absolute;
     width: 873px;
     height: 50px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 50px;
     color: #1A1A1A;
 }
 
 .line-8 {
     position: absolute;
     width: 60px;
-    height: 0px;
-    left: 889px;
-    top: 36px;
+    height: 2px;
+    top: 6.83%;
+    right: 19.54%;
     border: 2px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .container-2-slide {
     position: absolute;
     width: 136px;
     height: 2px;
-    left: 608px;
-    top: 150px;
+    top: 25.6%;
+    right: 36.92%;
+}
+
+.container-2-slide-1, .container-2-slide-2, .container-2-slide-3 {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
 }
 
 .container-2-slide-1 {
     position: absolute;
     left: 0%;
     right: 70.59%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #9A9A9A;
 }
 
@@ -1227,8 +817,6 @@ footer {
     position: absolute;
     left: 35.29%;
     right: 35.29%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #F1F1F1;
 }
 
@@ -1236,8 +824,6 @@ footer {
     position: absolute;
     left: 70.59%;
     right: 0%;
-    top: 0%;
-    bottom: 0%;
     border: 1px solid #F1F1F1;
 }
 
@@ -1250,13 +836,57 @@ footer {
 
 .converse-2 {
     position: absolute;
-    width: 612px;
-    height: 441px;
-    right: 5.04%;
-    bottom: -5.63%;
+    width: 532px;
+    height: 361px;
+    right: 8.43%;
+    bottom: 6.66%;
 }
 
-.rectangle-3 {
+.converse-2-background {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 16.9%;
+    left: 0%;
+    background: #FFB7B7;
+}
+
+.converse-2-image {
+    position: absolute;
+    left: 1.5%;
+}
+
+.converse-2-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 83.1%;
+    bottom: 0%;
+    background: #FFFFFF;
+}
+
+.converse-2-name {
+    position: absolute;
+    top: 34.43%;
+    left: 11.28%;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+.converse-2-name-bold {
+    font-weight: bold;
+}
+
+.converse-2-price {
+    position: absolute;
+    top: 32.79%;
+    right: 11.28%;
+    font-weight: bold;
+    font-size: 17px;
+    color: #1A1A1A;
+}
+
+.rectangle-4 {
     position: absolute;
     width: 60px;
     height: 155.83px;
@@ -1268,6 +898,7 @@ footer {
     position: absolute;
     width: 60px;
     height: 59.83px;
+    background: url(../image/button-left.svg);
 }
 
 .button-right {
@@ -1275,13 +906,13 @@ footer {
     width: 60px;
     height: 59.83px;
     bottom: 0%;
+    background: url(../image/button-right.svg);
 }
 
 .route-one {
     position: absolute;
     width: 1440px;
     height: 560px;
-    left: 0px;
     top: 2667px;
     background: #DCE6FF;
 }
@@ -1290,24 +921,20 @@ footer {
     position: absolute;
     width: 84px;
     height: 18px;
-    left: 130px;
-    top: 100px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
+    top: 17.86%;
+    left: 9.03%;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #1A1A1A;
 }
 
 .line-9 {
     position: absolute;
     width: 40px;
-    height: 0px;
-    left: 220px;
-    top: 111px;
+    height: 2px;
+    top: 20.36%;
+    left: 15.28%;
     border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .route-one-text-1 {
@@ -1316,11 +943,8 @@ footer {
     height: 60px;
     left: 9.03%;
     top: 23.93%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: 60px;
     color: #1A1A1A;
 }
 
@@ -1330,11 +954,8 @@ footer {
     height: 60px;
     left: 9.03%;
     top: 36.07%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: 60px;
     color: #1A1A1A;
 }
 
@@ -1344,19 +965,12 @@ footer {
     height: 54px;
     left: 9.03%;
     bottom: 39.29%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #1A1A1A;
 }
 
 .route-one-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 32px;
     position: absolute;
     width: 121px;
     height: 38px;
@@ -1369,18 +983,9 @@ footer {
     position: static;
     width: 57px;
     height: 18px;
-    left: 32px;
-    top: 10px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    margin: 10px 32px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .route-one-apollo {
@@ -1447,28 +1052,19 @@ footer {
     position: absolute;
     width: 274px;
     height: 50px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 50px;
     color: #1A1A1A;
 }
 
 .line-10 {
     position: absolute;
     width: 60px;
-    height: 0px;
-    left: 290px;
-    top: 35px;
+    height: 2px;
+    top: 4.33%;
+    left: 24.58%;
     border: 2px solid #1A1A1A;
-}
-
-.release-1 {
-    position: absolute;
-    width: 280px;
-    height: 382px;
-    top: 15.09%;
+    background-color: #1A1A1A;
 }
 
 .release-image {
@@ -1477,7 +1073,7 @@ footer {
     right: 0%;
     top: 0%;
     bottom: 25.39%;
-    background: url(../image/background.svg);
+    background: #F1F1F1;
 }
 
 .release-favourite {
@@ -1502,11 +1098,7 @@ footer {
     left: 7.14%;
     right: 7.14%;
     top: 20.62%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #1A1A1A;
 }
 
@@ -1515,11 +1107,8 @@ footer {
     left: 7.14%;
     right: 72.5%;
     bottom: 20.62%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    line-height: 21px;
     color: #1A1A1A;
 }
 
@@ -1527,66 +1116,59 @@ footer {
     position: absolute;
     right: 7.14%;
     bottom: 21.65%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
-    line-height: 15px;
-    text-align: right;
     color: #1A1A1A;
+}
+
+.release-1, .release-2, .release-3, .release-4,
+.release-5, .release-6, .release-7, .release-8 {
+    position: absolute;
+    width: 280px;
+    height: 382px;
+} 
+
+.release-1 {
+    position: absolute;
+    top: 15.09%;
 }
 
 .release-2 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     left: 25.42%;
     top: 15.09%;
 }
 
 .release-3 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     right: 25.42%;
     top: 15.09%;
 }
 
 .release-4 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     right: 0%;
     top: 15.09%;
 }
 
 .release-5 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     bottom: 0%;
 }
 
 .release-6 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     left: 25.42%;
     bottom: 0%;
 }
 
 .release-7 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     right: 25.42%;
     bottom: 0%;
 }
 
 .release-8 {
     position: absolute;
-    width: 280px;
-    height: 382px;
     right: 0%;
     bottom: 0%;
 }
@@ -1599,24 +1181,26 @@ footer {
     top: 4581px;
 }
 
-.container-4-1 {
+.container-4-1, .container-4-1-image, .container-4-1-gradient,
+.container-4-2, .container-4-2-image, .container-4-2-gradient,
+.container-4-3, .container-4-3-gradient, .container-4-4 {
     position: absolute;
     width: 580px;
     height: 418px;
+}
+
+.container-4-1 {
+    position: absolute;
     background: #AEEBFF;
 }
 
 .container-4-1-image {
     position: absolute;
-    width: 580px;
-    height: 418px;
     background: url(../image/cookie-1.svg);
 }
 
 .container-4-1-gradient {
     position: absolute;
-    width: 580px;
-    height: 418px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
@@ -1626,22 +1210,18 @@ footer {
     height: 18px;
     left: 17.24%;
     top: 19.14%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .line-11 {
     position: absolute;
     width: 40px;
-    height: 0px;
-    left: 190px;
-    top: 91px;
+    height: 2px;
+    top: 22.49%;
+    left: 32.76%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .container-4-1-text-2 {
@@ -1650,11 +1230,8 @@ footer {
     height: 65px;
     left: 17.24%;
     top: 25.36%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
     color: #FFFFFF;
 }
 
@@ -1664,19 +1241,12 @@ footer {
     height: 65px;
     left: 34.48%;
     bottom: 41.63%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
     color: #FFFFFF;
 }
 
 .container-4-1-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 32px;
     position: absolute;
     width: 121px;
     height: 38px;
@@ -1689,39 +1259,24 @@ footer {
     position: static;
     width: 57px;
     height: 18px;
-    left: 32px;
-    top: 10px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    margin: 10px 32px;
     color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .container-4-2 {
     position: absolute;
-    width: 580px;
-    height: 418px;
     right: 0%;
     background: #AEEBFF;
 }
 
 .container-4-2-image {
     position: absolute;
-    width: 580px;
-    height: 418px;
     background: url(../image/cookie-2.svg);
 }
 
 .container-4-2-gradient {
     position: absolute;
-    width: 580px;
-    height: 418px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
@@ -1731,21 +1286,18 @@ footer {
     height: 18px;
     left: 17.24%;
     top: 19.14%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
 .line-12 {
     position: absolute;
     width: 40px;
-    height: 0px;
-    left: 150px;
-    top: 91px;
+    height: 2px;
+    top: 22.49%;
+    left: 25.86%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .container-4-2-text-2 {
@@ -1754,11 +1306,8 @@ footer {
     height: 65px;
     left: 17.24%;
     top: 25.36%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
     color: #FFFFFF;
 }
 
@@ -1768,19 +1317,12 @@ footer {
     height: 65px;
     left: 34.48%;
     bottom: 41.63%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
     color: #FFFFFF;
 }
 
 .container-4-2-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 32px;
     position: absolute;
     width: 121px;
     height: 38px;
@@ -1793,32 +1335,19 @@ footer {
     position: static;
     width: 57px;
     height: 18px;
-    left: 32px;
-    top: 10px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    margin: 10px 32px;
     color: #1A1A1A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .container-4-3 {
     position: absolute;
-    width: 580px;
-    height: 418px;
     bottom: 0%;
     background: url(../image/cookie-3.svg);
 }
 
 .container-4-3-gradient {
     position: absolute;
-    width: 580px;
-    height: 418px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
@@ -1832,8 +1361,6 @@ footer {
 
 .container-4-4 {
     position: absolute;
-    width: 580px;
-    height: 418px;
     right: 0%;
     bottom: 0%;
 }
@@ -1844,12 +1371,8 @@ footer {
     height: 65px;
     left: 17.24%;
     top: 9.57%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -1859,12 +1382,8 @@ footer {
     height: 65px;
     left: 17.24%;
     top: 25.12%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 52px;
-    line-height: 65px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -1874,9 +1393,6 @@ footer {
     height: 90px;
     left: 17.24%;
     top: 46.41%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.01em;
@@ -1884,44 +1400,31 @@ footer {
 }
 
 .container-4-4-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 32px;
     position: absolute;
     width: 121px;
     height: 38px;
     left: 17.24%;
     bottom: 9.57%;
     background: #1A1A1A;
-    mix-blend-mode: normal;
 }
 
 .container-4-4-button-text {
     position: static;
     width: 57px;
     height: 18px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    margin: 10px 32px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .subscribe {
     position: absolute;
     width: 1440px;
     height: 236px;
-    left: 0px;
     top: 5557px;
 }
 
-.rectangle-4 {
+.rectangle-5 {
     position: absolute;
     width: 197px;
     height: 76px;
@@ -1933,21 +1436,18 @@ footer {
     position: absolute;
     width: 87px;
     height: 18px;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #1A1A1A;
 }
 
 .line-13 {
     position: absolute;
     width: 40px;
-    height: 0px;
+    height: 2px;
     right: 31.74%;
     top: 18.42%;
     border: 1px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .subscribe-text-2 {
@@ -1955,12 +1455,8 @@ footer {
     width: 197px;
     height: 50px;
     bottom: 0%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 50px;
-    text-align: center;
     color: #1A1A1A;
 }
 
@@ -1992,12 +1488,7 @@ footer {
     right: 25.6%;
     top: 26.32%;
     bottom: 26.32%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -2008,10 +1499,7 @@ footer {
     left: 9.03%;
     top: 15.3%;
     font-family: Germania One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 43px;
-    line-height: 50px;
     color: #FFFFFF;
 }
 
@@ -2027,20 +1515,18 @@ footer {
     position: absolute;
     width: 48px;
     height: 20px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
 .line-14 {
     position: absolute;
     width: 80px;
-    height: 0px;
+    height: 2px;
     top: 16.16%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .footer-about-1 {
@@ -2048,11 +1534,7 @@ footer {
     width: 59px;
     height: 18px;
     bottom: 62.63%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2061,11 +1543,7 @@ footer {
     width: 77px;
     height: 18px;
     bottom: 47.47%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2074,11 +1552,7 @@ footer {
     width: 54px;
     height: 18px;
     bottom: 32.32%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2087,11 +1561,7 @@ footer {
     width: 66px;
     height: 18px;
     bottom: 17.17%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2100,11 +1570,7 @@ footer {
     width: 63px;
     height: 18px;
     bottom: 0%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2114,11 +1580,7 @@ footer {
     height: 18px;
     left: 72.73%;
     bottom: 62.63%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2128,11 +1590,7 @@ footer {
     height: 18px;
     left: 72.73%;
     bottom: 47.47%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2142,11 +1600,7 @@ footer {
     height: 18px;
     left: 72.73%;
     bottom: 32.32%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2156,11 +1610,7 @@ footer {
     height: 18px;
     left: 72.73%;
     bottom: 17.17%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2176,20 +1626,18 @@ footer {
     position: absolute;
     width: 44px;
     height: 20px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
 .line-15 {
     position: absolute;
     width: 80px;
-    height: 0px;
+    height: 2px;
     top: 18.6%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .footer-store-1 {
@@ -2197,11 +1645,7 @@ footer {
     width: 162px;
     height: 18px;
     bottom: 62.79%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2210,11 +1654,7 @@ footer {
     width: 124px;
     height: 18px;
     bottom: 45.35%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2223,11 +1663,7 @@ footer {
     width: 136px;
     height: 18px;
     bottom: 27.91%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
@@ -2236,9 +1672,6 @@ footer {
     width: 180px;
     height: 36px;
     bottom: 0%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
@@ -2256,27 +1689,24 @@ footer {
     position: absolute;
     width: 85px;
     height: 20px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
 .line-16 {
     position: absolute;
     width: 120px;
-    height: 0px;
+    height: 2px;
     top: 29.63%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 
-.footer-credit-1 {
+.footer-credit-1, .footer-credit-2 {
     position: absolute;
     width: 120px;
     height: 18px;
-    bottom: 32.48%;
 }
 
 .footer-credit-image {
@@ -2289,18 +1719,17 @@ footer {
     width: 74px;
     height: 18px;
     left: 31.92%;
-    font-family: Lexend;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
+}
+
+.footer-credit-1 {
+    position: absolute;
+    bottom: 32.48%;
 }
 
 .footer-credit-2 {
     position: absolute;
-    width: 120px;
-    height: 18px;
     bottom: 0%;
 }
 
@@ -2316,65 +1745,58 @@ footer {
     position: absolute;
     width: 77px;
     height: 18px;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
 }
 
 .line-17 {
     position: absolute;
     width: 100px;
-    height: 0px;
+    height: 2px;
     top: 44.44%;
     border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.facebook, .instagram, .pinterest,
+.twitter, .snapchat, .linkedin {
+    position: absolute;
+    width: 16px;
+    height: 16px;
 }
 
 .facebook {
     position: absolute;
-    width: 16px;
-    height: 16px;
     bottom: 0%;
 }
 
 .instagram {
     position: absolute;
-    width: 16px;
-    height: 16px;
     left: 17.95%;
     bottom: 0%;
 }
 
 .pinterest {
     position: absolute;
-    width: 16px;
-    height: 16px;
     left: 33.79%;
     bottom: 0%;
 }
 
 .twitter {
     position: absolute;
-    width: 16px;
-    height: 16px;
     bottom: 0%;
     right: 35.9%;
 }
 
 .snapchat {
     position: absolute;
-    width: 16px;
-    height: 16px;
     right: 17.95%;
     bottom: 0%;
 }
 
 .linkedin {
     position: absolute;
-    width: 16px;
-    height: 16px;
     right: 0%;
     bottom: 0%;
 }
@@ -2382,10 +1804,11 @@ footer {
 .line-18 {
     position: absolute;
     width: 1180px;
-    height: 0px;
+    height: 1px;
     left: 9.03%;
     bottom: 10.52%;
     border: 0.5px solid #9A9A9A;
+    background-color: #9A9A9A;
 }
 
 .copyright {
@@ -2394,10 +1817,7 @@ footer {
     height: 15px;
     left: 9.03%;
     bottom: 3.82%;
-    font-family: Lexend;
-    font-style: normal;
     font-weight: 300;
     font-size: 12px;
-    line-height: 15px;
     color: #FFFFFF;
 }
