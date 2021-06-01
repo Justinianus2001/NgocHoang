@@ -1,4 +1,5 @@
 * {
+    position: absolute;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -15,30 +16,29 @@ input {
     padding: 10px 16px 10px 16px;
 }
 
+body, header, footer,
+.rectangle-1, .rectangle-2, .rectangle-3,
+.banner, .brands, .route-one, .subscribe {
+    width: 1440px;
+}
+
 body {
     position: relative;
-    width: 1440px;
     height: 6316px;
     background: #FBFBFB;
 }
 
 header {
-    position: absolute;
-    width: 1440px;
     height: 202px;
 }
 
 footer {
-    position: absolute;
-    width: 1440px;
     height: 523px;
     top: 5793px;
     background: #1A1A1A;
 }
 
 .rectangle-1 {
-    position: absolute;
-    width: 1440px;
     height: 32px;
     font-size: 12px;
     color: #F1F1F1;
@@ -46,7 +46,6 @@ footer {
 }
 
 .phone {
-    position: absolute;
     width: 106.36px;
     height: 15px;
     top: 25%;
@@ -54,20 +53,17 @@ footer {
 }
 
 .phone-icon {
-    position: absolute;
     width: 13.96px;
     height: 14px;
 }
 
 .phone-number {
-    position: absolute;
     width: 84px;
     height: 15px;
     right: 0%;
 }
 
 .address {
-    position: absolute;
     width: 254.74px;
     height: 15px;
     top: 25%;
@@ -75,20 +71,17 @@ footer {
 }
 
 .pin-icon {
-    position: absolute;
     width: 10.97px;
     height: 14px;
 }
 
 .address-info {
-    position: absolute;
     width: 235px;
     height: 15px;
     right: 0%;
 }
 
 .star {
-    position: absolute;
     width: 278.67px;
     height: 15px;
     top: 25%;
@@ -96,27 +89,22 @@ footer {
 }
 
 .star-icon {
-    position: absolute;
     width: 88.67px;
     height: 14px;
 }
 
 .star-info {
-    position: absolute;
     width: 182px;
     height: 15px;
     right: 0%;
 }
 
 .rectangle-2 {
-    position: absolute;
-    width: 1440px;
     height: 120px;
     top: 32px;
 }
 
 .logo {
-    position: absolute;
     width: 120px;
     height: 50px;
     top: 29.17%;
@@ -124,7 +112,6 @@ footer {
 }
 
 .header-cordes {
-    position: absolute;
     width: 120px;
     height: 50px;
     top: 29.17%;
@@ -135,7 +122,6 @@ footer {
 }
 
 .navigation {
-    position: absolute;
     width: 170px;
     height: 120px;
     left: 20.69%;
@@ -143,7 +129,6 @@ footer {
 
 .women {
     padding: 50px 20px;
-    position: absolute;
     width: 98px;
     height: 120px;
     right: 0%;
@@ -152,14 +137,12 @@ footer {
 
 .men {
     padding: 50px 20px;
-    position: absolute;
     width: 72px;
     height: 120px;
     color: #1A1A1A;
 }
 
 .line-1 {
-    position: absolute;
     width: 32px;
     height: 2px;
     bottom: 36.67%;
@@ -169,7 +152,6 @@ footer {
 }
 
 .search-box {
-    position: absolute;
     width: 380px;
     height: 38px;
     top: 34.17%;
@@ -177,7 +159,6 @@ footer {
 }
 
 .search-input {
-    position: absolute;
     width: 280px;
     height: 38px;
     background: #FFFFFF;
@@ -185,7 +166,6 @@ footer {
 }
 
 .search-button {
-    position: absolute;
     width: 100px;
     height: 38px;
     right: 0%;
@@ -193,13 +173,11 @@ footer {
 }
 
 .search-icon {
-    position: absolute;
     top: 31.58%;
     left: 16%;
 }
 
 .search-button-text {
-    position: absolute;
     top: 26.32%;
     left: 38%;
     font-size: 14px;
@@ -207,7 +185,6 @@ footer {
 }
 
 .account {
-    position: absolute;
     width: 109.91px;
     height: 35px;
     top: 35%;
@@ -215,21 +192,18 @@ footer {
 }
 
 .account-icon-1 {
-    position: absolute;
     width: 20.97px;
     height: 20px;
     bottom: 20%;
 }
 
 .account-info {
-    position: absolute;
     width: 70.19px;
     height: 35px;
     right: 0%;
 }
 
 .account-log-in-out {
-    position: absolute;
     width: 70px;
     height: 13px;
     font-size: 10px;
@@ -237,7 +211,6 @@ footer {
 }
 
 .account-name {
-    position: absolute;
     width: 54px;
     height: 18px;
     bottom: 0%;
@@ -246,7 +219,6 @@ footer {
 }
 
 .account-icon-2 {
-    position: absolute;
     width: 12px;
     height: 6px;
     right: 0%;
@@ -254,7 +226,6 @@ footer {
 }
 
 .wishlist {
-    position: absolute;
     width: 90.76px;
     height: 18px;
     top: 42.5%;
@@ -262,13 +233,11 @@ footer {
 }
 
 .wishlist-icon {
-    position: absolute;
     width: 21.36px;
     height: 18px;
 }
 
 .wishlist-text {
-    position: absolute;
     width: 50px;
     height: 18px;
     right: 0%;
@@ -277,7 +246,6 @@ footer {
 }
 
 .cart {
-    position: absolute;
     width: 68.45px;
     height: 20px;
     top: 41.67%;
@@ -285,13 +253,11 @@ footer {
 }
 
 .cart-icon {
-    position: absolute;
     width: 19.94px;
     height: 20px;
 }
 
 .cart-text {
-    position: absolute;
     width: 29px;
     height: 18px;
     top: 5%;
@@ -301,7 +267,6 @@ footer {
 }
 
 .line-2 {
-    position: absolute;
     width: 1170px;
     height: 2px;
     bottom: 0%;
@@ -311,15 +276,12 @@ footer {
 }
 
 .rectangle-3 {
-    position: absolute;
-    width: 1440px;
     height: 50px;
     left: 0px;
     top: 152px;
 }
 
 .navigation-list {
-    position: absolute;
     width: 991px;
     height: 34px;
     top: 16%;
@@ -328,7 +290,6 @@ footer {
 
 .line-3-1, .line-3-2, .line-3-3, .line-3-4,
 .line-3-5, .line-3-6, .line-3-7, .line-3-8 {
-    position: absolute;
     width: 2px;
     height: 16px;
     top: 26.47%;
@@ -337,48 +298,39 @@ footer {
 }
 
 .line-3-1 {
-    position: absolute;
     left: 9.79%;
 }
 
 .line-3-2 {
-    position: absolute;
     left: 20.99%;
 }
 
 .line-3-3 {
-    position: absolute;
     left: 30.68%;
 }
 
 .line-3-4 {
-    position: absolute;
     left: 43.29%;
 }
 
 .line-3-5 {
-    position: absolute;
     right: 43.29%;
 }
 
 .line-3-6 {
-    position: absolute;
     right: 30.58%;
 }
 
 .line-3-7 {
-    position: absolute;
     right: 20.18%;
 }
 
 .line-3-8 {
-    position: absolute;
     right: 8.17%;
 }
 
 .link-1, .link-2, .link-3, .link-4, .link-5,
 .link-6, .link-7, .link-8, .link-9 {
-    position: absolute;
     height: 18px;
     top: 23.53%;
     font-size: 14px;
@@ -386,66 +338,53 @@ footer {
 }
 
 .link-1 {
-    position: absolute;
     left: 2.42%;
 }
 
 .link-2 {
-    position: absolute;
     left: 12.61%;
 }
 
 .link-3 {
-    position: absolute;
     left: 23.81%;
 }
 
 .link-4 {
-    position: absolute;
     left: 33.5%;
 }
 
 .link-5 {
-    position: absolute;
     left: 46.12%;
 }
 
 .link-6 {
-    position: absolute;
     right: 33.4%;
 }
 
 .link-7 {
-    position: absolute;
     right: 23.01%;
 }
 
 .link-8 {
-    position: absolute;
     right: 11%;
 }
 
 .link-9 {
-    position: absolute;
     right: 2.42%;
 }
 
 .banner {
-    position: absolute;
-    width: 1440px;
     height: 598px;
     top: 202px;
     background: #CDDDF0;
 }
 
 .banner-image {
-    position: absolute;
     width: 1431px;
     height: 598px;
 }
 
 .banner-new-season {
-    position: absolute;
     width: 84px;
     height: 18px;
     top: 17.22%;
@@ -455,7 +394,6 @@ footer {
 }
 
 .line-4 {
-    position: absolute;
     width: 40px;
     height: 2px;
     top: 19.57%;
@@ -465,7 +403,6 @@ footer {
 }
 
 .banner-text-1 {
-    position: absolute;
     width: 450px;
     height: 73px;
     top: 22.91%;
@@ -476,7 +413,6 @@ footer {
 }
 
 .banner-text-2 {
-    position: absolute;
     width: 565px;
     height: 73px;
     top: 37.29%;
@@ -487,7 +423,6 @@ footer {
 }
 
 .banner-button {
-    position: absolute;
     width: 121px;
     height: 38px;
     bottom: 29.43%;
@@ -505,7 +440,6 @@ footer {
 }
 
 .banner-watch {
-    position: absolute;
     width: 129.91px;
     height: 26px;
     bottom: 30.43%;
@@ -513,7 +447,6 @@ footer {
 }
 
 .banner-watch-text {
-    position: absolute;
     left: 31.49%;
     right: 0%;
     top: 15.38%;
@@ -523,7 +456,6 @@ footer {
 }
 
 .banner-slide {
-    position: absolute;
     width: 136px;
     height: 2px;
     bottom: 11.54%;
@@ -531,13 +463,11 @@ footer {
 }
 
 .banner-slide-1, .banner-slide-2, .banner-slide-3 {
-    position: absolute;
     top: 0%;
     bottom: 0%;
 }
 
 .banner-slide-1 {
-    position: absolute;
     left: 0%;
     right: 70.59%;
     border: 1px solid #FFFFFF;
@@ -545,7 +475,6 @@ footer {
 }
 
 .banner-slide-2 {
-    position: absolute;
     left: 35.29%;
     right: 35.29%;
     border: 1px solid #B3C4D7;
@@ -553,7 +482,6 @@ footer {
 }
 
 .banner-slide-3 {
-    position: absolute;
     left: 70.59%;
     right: 0%;
     border: 1px solid #B3C4D7;
@@ -561,14 +489,11 @@ footer {
 }
 
 .brands {
-    position: absolute;
-    width: 1440px;
     height: 147px;
     top: 800px;
 }
 
 .branding {
-    position: absolute;
     width: 945px;
     height: 67px;
     top: 27.21%;
@@ -576,7 +501,6 @@ footer {
 }
 
 .nike-logo {
-    position: absolute;
     width: 83px;
     height: 60px;
     top: 5.97%;
@@ -584,7 +508,6 @@ footer {
 }
 
 .adidas-logo {
-    position: absolute;
     width: 62px;
     height: 60px;
     top: 5.97%;
@@ -593,7 +516,6 @@ footer {
 }
 
 .route-one-logo {
-    position: absolute;
     width: 135px;
     height: 67px;
     left: 30.58%;
@@ -601,7 +523,6 @@ footer {
 }
 
 .vans-logo {
-    position: absolute;
     width: 128px;
     height: 67px;
     right: 33.97%;
@@ -609,7 +530,6 @@ footer {
 }
 
 .carhartt-logo {
-    position: absolute;
     width: 128px;
     height: 67px;
     right: 12.8%;
@@ -617,7 +537,6 @@ footer {
 }
 
 .santa-cruz-logo {
-    position: absolute;
     width: 49px;
     height: 60px;
     top: 5.97%;
@@ -626,7 +545,6 @@ footer {
 }
 
 .line-5 {
-    position: absolute;
     left: 76.8%;
     right: 23.2%;
     top: 23.13%;
@@ -636,7 +554,6 @@ footer {
 }
 
 .line-6 {
-    position: absolute;
     width: 40px;
     height: 2px;
     right: 17.08%;
@@ -646,7 +563,6 @@ footer {
 }
 
 .brands-text {
-    position: absolute;
     width: 107px;
     height: 18px;
     right: 9.1%;
@@ -657,7 +573,6 @@ footer {
 }
 
 .container-1 {
-    position: absolute;
     width: 1180px;
     height: 654px;
     left: 130px;
@@ -665,7 +580,6 @@ footer {
 }
 
 .container-1-name {
-    position: absolute;
     width: 345px;
     height: 50px;
     font-weight: 600;
@@ -674,7 +588,6 @@ footer {
 }
 
 .line-7 {
-    position: absolute;
     width: 60px;
     height: 2px;
     top: 6.12%;
@@ -684,14 +597,12 @@ footer {
 }
 
 .hoody {
-    position: absolute;
     width: 380px;
     height: 504px;
     bottom: 0%;
 }
 
 .hat {
-    position: absolute;
     width: 200px;
     height: 251.47px;
     top: 22.94%;
@@ -699,7 +610,6 @@ footer {
 }
 
 .shoes {
-    position: absolute;
     width: 329.83px;
     height: 295px;
     bottom: 0%;
@@ -707,7 +617,6 @@ footer {
 }
 
 .container-1-text {
-    position: absolute;
     width: 778px;
     height: 448px;
     left: 25.42%;
@@ -715,7 +624,6 @@ footer {
 }
 
 .container-1-text-1 {
-    position: absolute;
     width: 484px;
     height: 150px;
     font-weight: 600;
@@ -724,7 +632,6 @@ footer {
 }
 
 .container-1-text-2 {
-    position: absolute;
     width: 578px;
     height: 150px;
     left: 25.71%;
@@ -736,7 +643,6 @@ footer {
 }
 
 .container-1-text-3 {
-    position: absolute;
     width: 280px;
     height: 36px;
     left: 25.71%;
@@ -748,7 +654,6 @@ footer {
 }
 
 .container-1-button {
-    position: absolute;
     width: 132px;
     height: 38px;
     bottom: 0%;
@@ -757,7 +662,6 @@ footer {
 }
 
 .container-1-button-text {
-    position: absolute;
     width: 70px;
     height: 18px;
     font-size: 14px;
@@ -766,7 +670,6 @@ footer {
 }
 
 .container-2 {
-    position: absolute;
     width: 1179.45px;
     height: 586px;
     left: 130px;
@@ -774,7 +677,6 @@ footer {
 }
 
 .container-2-name {
-    position: absolute;
     width: 873px;
     height: 50px;
     font-weight: 600;
@@ -783,7 +685,6 @@ footer {
 }
 
 .line-8 {
-    position: absolute;
     width: 60px;
     height: 2px;
     top: 6.83%;
@@ -793,7 +694,6 @@ footer {
 }
 
 .container-2-slide {
-    position: absolute;
     width: 136px;
     height: 2px;
     top: 25.6%;
@@ -801,41 +701,38 @@ footer {
 }
 
 .container-2-slide-1, .container-2-slide-2, .container-2-slide-3 {
-    position: absolute;
     top: 0%;
     bottom: 0%;
 }
 
 .container-2-slide-1 {
-    position: absolute;
     left: 0%;
     right: 70.59%;
     border: 1px solid #9A9A9A;
+    background-color: #9A9A9A;
 }
 
 .container-2-slide-2 {
-    position: absolute;
     left: 35.29%;
     right: 35.29%;
     border: 1px solid #F1F1F1;
+    background-color: #F1F1F1;
 }
 
 .container-2-slide-3 {
-    position: absolute;
     left: 70.59%;
     right: 0%;
     border: 1px solid #F1F1F1;
+    background-color: #F1F1F1;
 }
 
 .converse-1 {
-    position: absolute;
     width: 580px;
     height: 436px;
     bottom: 0%;
 }
 
 .converse-2 {
-    position: absolute;
     width: 532px;
     height: 361px;
     right: 8.43%;
@@ -843,7 +740,6 @@ footer {
 }
 
 .converse-2-background {
-    position: absolute;
     top: 0%;
     right: 0%;
     bottom: 16.9%;
@@ -852,12 +748,10 @@ footer {
 }
 
 .converse-2-image {
-    position: absolute;
     left: 1.5%;
 }
 
 .converse-2-info {
-    position: absolute;
     left: 0%;
     right: 0%;
     top: 83.1%;
@@ -874,11 +768,11 @@ footer {
 }
 
 .converse-2-name-bold {
+    position: relative;
     font-weight: bold;
 }
 
 .converse-2-price {
-    position: absolute;
     top: 32.79%;
     right: 11.28%;
     font-weight: bold;
@@ -887,7 +781,6 @@ footer {
 }
 
 .rectangle-4 {
-    position: absolute;
     width: 60px;
     height: 155.83px;
     right: 0%;
@@ -895,14 +788,12 @@ footer {
 }
 
 .button-left {
-    position: absolute;
     width: 60px;
     height: 59.83px;
     background: url(../image/button-left.svg);
 }
 
 .button-right {
-    position: absolute;
     width: 60px;
     height: 59.83px;
     bottom: 0%;
@@ -910,15 +801,12 @@ footer {
 }
 
 .route-one {
-    position: absolute;
-    width: 1440px;
     height: 560px;
     top: 2667px;
     background: #DCE6FF;
 }
 
 .route-one-name {
-    position: absolute;
     width: 84px;
     height: 18px;
     top: 17.86%;
@@ -928,7 +816,6 @@ footer {
 }
 
 .line-9 {
-    position: absolute;
     width: 40px;
     height: 2px;
     top: 20.36%;
@@ -938,7 +825,6 @@ footer {
 }
 
 .route-one-text-1 {
-    position: absolute;
     width: 360px;
     height: 60px;
     left: 9.03%;
@@ -949,7 +835,6 @@ footer {
 }
 
 .route-one-text-2 {
-    position: absolute;
     width: 376px;
     height: 60px;
     left: 9.03%;
@@ -960,7 +845,6 @@ footer {
 }
 
 .route-one-text-3 {
-    position: absolute;
     width: 280px;
     height: 54px;
     left: 9.03%;
@@ -971,7 +855,6 @@ footer {
 }
 
 .route-one-button {
-    position: absolute;
     width: 121px;
     height: 38px;
     left: 9.03%;
@@ -989,59 +872,39 @@ footer {
 }
 
 .route-one-apollo {
-    position: absolute;
     width: 970px;
     height: 574px;
     bottom: 22.86%;
     right: -0.97%;
+    margin-right: 0.97%;
+    object-fit: contain;
 }
 
-.route-one-apollo-1 {
-    position: absolute;
-    width: 412px;
+.route-one-apollo-1, .route-one-apollo-2, .route-one-apollo-3,
+.route-one-apollo-4, .route-one-apollo-5 {
     height: 574px;
+    width: 411px;
     margin-top: 71px;
     object-fit: contain;
 }
 
 .route-one-apollo-2 {
-    position: absolute;
-    width: 410px;
-    height: 574px;
     left: 14.54%;
-    margin-top: 71px;
-    object-fit: contain;
 }
 
 .route-one-apollo-3 {
-    position: absolute;
-    width: 411px;
-    height: 574px;
     right: 28.76%;
-    margin-top: 71px;
-    object-fit: contain;
 }
 
 .route-one-apollo-4 {
-    position: absolute;
-    width: 411px;
-    height: 574px;
     right: 14.33%;
-    margin-top: 71px;
-    object-fit: contain;
 }
 
 .route-one-apollo-5 {
-    position: absolute;
-    width: 410px;
-    height: 574px;
     right: 0%;
-    margin-top: 70px;
-    object-fit: contain;
 }
 
 .container-3 {
-    position: absolute;
     width: 1180px;
     height: 994px;
     left: 130px;
@@ -1049,7 +912,6 @@ footer {
 }
 
 .container-3-name {
-    position: absolute;
     width: 274px;
     height: 50px;
     font-weight: 600;
@@ -1058,7 +920,6 @@ footer {
 }
 
 .line-10 {
-    position: absolute;
     width: 60px;
     height: 2px;
     top: 4.33%;
@@ -1068,7 +929,6 @@ footer {
 }
 
 .release-image {
-    position: absolute;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -1077,7 +937,6 @@ footer {
 }
 
 .release-favourite {
-    position: absolute;
     left: 85.71%;
     right: 7.14%;
     top: 5.24%;
@@ -1085,7 +944,6 @@ footer {
 }
 
 .release-info {
-    position: absolute;
     left: 0%;
     right: 0%;
     top: 74.61%;
@@ -1094,7 +952,6 @@ footer {
 }
 
 .release-name {
-    position: absolute;
     left: 7.14%;
     right: 7.14%;
     top: 20.62%;
@@ -1103,7 +960,6 @@ footer {
 }
 
 .release-price {
-    position: absolute;
     left: 7.14%;
     right: 72.5%;
     bottom: 20.62%;
@@ -1113,7 +969,6 @@ footer {
 }
 
 .release-sold {
-    position: absolute;
     right: 7.14%;
     bottom: 21.65%;
     font-size: 12px;
@@ -1122,59 +977,49 @@ footer {
 
 .release-1, .release-2, .release-3, .release-4,
 .release-5, .release-6, .release-7, .release-8 {
-    position: absolute;
     width: 280px;
     height: 382px;
 } 
 
 .release-1 {
-    position: absolute;
     top: 15.09%;
 }
 
 .release-2 {
-    position: absolute;
     left: 25.42%;
     top: 15.09%;
 }
 
 .release-3 {
-    position: absolute;
     right: 25.42%;
     top: 15.09%;
 }
 
 .release-4 {
-    position: absolute;
     right: 0%;
     top: 15.09%;
 }
 
 .release-5 {
-    position: absolute;
     bottom: 0%;
 }
 
 .release-6 {
-    position: absolute;
     left: 25.42%;
     bottom: 0%;
 }
 
 .release-7 {
-    position: absolute;
     right: 25.42%;
     bottom: 0%;
 }
 
 .release-8 {
-    position: absolute;
     right: 0%;
     bottom: 0%;
 }
 
 .container-4 {
-    position: absolute;
     width: 1180px;
     height: 856px;
     left: 130px;
@@ -1184,28 +1029,23 @@ footer {
 .container-4-1, .container-4-1-image, .container-4-1-gradient,
 .container-4-2, .container-4-2-image, .container-4-2-gradient,
 .container-4-3, .container-4-3-gradient, .container-4-4 {
-    position: absolute;
     width: 580px;
     height: 418px;
 }
 
 .container-4-1 {
-    position: absolute;
     background: #AEEBFF;
 }
 
 .container-4-1-image {
-    position: absolute;
     background: url(../image/cookie-1.svg);
 }
 
 .container-4-1-gradient {
-    position: absolute;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
 .container-4-1-text-1 {
-    position: absolute;
     width: 84px;
     height: 18px;
     left: 17.24%;
@@ -1215,7 +1055,6 @@ footer {
 }
 
 .line-11 {
-    position: absolute;
     width: 40px;
     height: 2px;
     top: 22.49%;
@@ -1225,7 +1064,6 @@ footer {
 }
 
 .container-4-1-text-2 {
-    position: absolute;
     width: 153px;
     height: 65px;
     left: 17.24%;
@@ -1236,7 +1074,6 @@ footer {
 }
 
 .container-4-1-text-3 {
-    position: absolute;
     width: 119px;
     height: 65px;
     left: 34.48%;
@@ -1247,7 +1084,6 @@ footer {
 }
 
 .container-4-1-button {
-    position: absolute;
     width: 121px;
     height: 38px;
     left: 17.24%;
@@ -1265,23 +1101,19 @@ footer {
 }
 
 .container-4-2 {
-    position: absolute;
     right: 0%;
     background: #AEEBFF;
 }
 
 .container-4-2-image {
-    position: absolute;
     background: url(../image/cookie-2.svg);
 }
 
 .container-4-2-gradient {
-    position: absolute;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
 .container-4-2-text-1 {
-    position: absolute;
     width: 42px;
     height: 18px;
     left: 17.24%;
@@ -1291,7 +1123,6 @@ footer {
 }
 
 .line-12 {
-    position: absolute;
     width: 40px;
     height: 2px;
     top: 22.49%;
@@ -1301,7 +1132,6 @@ footer {
 }
 
 .container-4-2-text-2 {
-    position: absolute;
     width: 153px;
     height: 65px;
     left: 17.24%;
@@ -1312,7 +1142,6 @@ footer {
 }
 
 .container-4-2-text-3 {
-    position: absolute;
     width: 119px;
     height: 65px;
     left: 34.48%;
@@ -1323,7 +1152,6 @@ footer {
 }
 
 .container-4-2-button {
-    position: absolute;
     width: 121px;
     height: 38px;
     left: 17.24%;
@@ -1341,18 +1169,15 @@ footer {
 }
 
 .container-4-3 {
-    position: absolute;
     bottom: 0%;
     background: url(../image/cookie-3.svg);
 }
 
 .container-4-3-gradient {
-    position: absolute;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) -5.86%, rgba(0, 0, 0, 0) 119.62%);
 }
 
 .container-4-3-play-button {
-    position: absolute;
     width: 96.73px;
     height: 97px;
     top: 38.28%;
@@ -1360,13 +1185,11 @@ footer {
 }
 
 .container-4-4 {
-    position: absolute;
     right: 0%;
     bottom: 0%;
 }
 
 .container-4-4-text-1 {
-    position: absolute;
     width: 179px;
     height: 65px;
     left: 17.24%;
@@ -1377,7 +1200,6 @@ footer {
 }
 
 .container-4-4-text-2 {
-    position: absolute;
     width: 366px;
     height: 65px;
     left: 17.24%;
@@ -1388,7 +1210,6 @@ footer {
 }
 
 .container-4-4-text-3 {
-    position: absolute;
     width: 383px;
     height: 90px;
     left: 17.24%;
@@ -1400,7 +1221,6 @@ footer {
 }
 
 .container-4-4-button {
-    position: absolute;
     width: 121px;
     height: 38px;
     left: 17.24%;
@@ -1418,14 +1238,11 @@ footer {
 }
 
 .subscribe {
-    position: absolute;
-    width: 1440px;
     height: 236px;
     top: 5557px;
 }
 
 .rectangle-5 {
-    position: absolute;
     width: 197px;
     height: 76px;
     left: 22.92%;
@@ -1433,7 +1250,6 @@ footer {
 }
 
 .subscribe-text-1 {
-    position: absolute;
     width: 87px;
     height: 18px;
     font-size: 14px;
@@ -1441,7 +1257,6 @@ footer {
 }
 
 .line-13 {
-    position: absolute;
     width: 40px;
     height: 2px;
     right: 31.74%;
@@ -1451,7 +1266,6 @@ footer {
 }
 
 .subscribe-text-2 {
-    position: absolute;
     width: 197px;
     height: 50px;
     bottom: 0%;
@@ -1461,7 +1275,6 @@ footer {
 }
 
 .subscribe-box {
-    position: absolute;
     width: 480px;
     height: 38px;
     right: 22.92%;
@@ -1469,13 +1282,11 @@ footer {
 }
 
 .subscribe-input {
-    position: absolute;
     width: 355px;
     height: 38px;
 }
 
 .subscribe-button {
-    position: absolute;
     width: 125px;
     height: 38px;
     right: 0%;
@@ -1483,7 +1294,6 @@ footer {
 }
 
 .subscribe-button-text {
-    position: absolute;
     left: 25.6%;
     right: 25.6%;
     top: 26.32%;
@@ -1493,7 +1303,6 @@ footer {
 }
 
 .footer-cordes {
-    position: absolute;
     width: 120px;
     height: 50px;
     left: 9.03%;
@@ -1504,7 +1313,6 @@ footer {
 }
 
 .footer-about {
-    position: absolute;
     width: 220px;
     height: 198px;
     left: 9.03%;
@@ -1512,7 +1320,6 @@ footer {
 }
 
 .footer-about-name {
-    position: absolute;
     width: 48px;
     height: 20px;
     font-weight: 600;
@@ -1521,7 +1328,6 @@ footer {
 }
 
 .line-14 {
-    position: absolute;
     width: 80px;
     height: 2px;
     top: 16.16%;
@@ -1530,7 +1336,6 @@ footer {
 }
 
 .footer-about-1 {
-    position: absolute;
     width: 59px;
     height: 18px;
     bottom: 62.63%;
@@ -1539,7 +1344,6 @@ footer {
 }
 
 .footer-about-2 {
-    position: absolute;
     width: 77px;
     height: 18px;
     bottom: 47.47%;
@@ -1548,7 +1352,6 @@ footer {
 }
 
 .footer-about-3 {
-    position: absolute;
     width: 54px;
     height: 18px;
     bottom: 32.32%;
@@ -1557,7 +1360,6 @@ footer {
 }
 
 .footer-about-4 {
-    position: absolute;
     width: 66px;
     height: 18px;
     bottom: 17.17%;
@@ -1566,7 +1368,6 @@ footer {
 }
 
 .footer-about-5 {
-    position: absolute;
     width: 63px;
     height: 18px;
     bottom: 0%;
@@ -1575,7 +1376,6 @@ footer {
 }
 
 .footer-about-6 {
-    position: absolute;
     width: 59px;
     height: 18px;
     left: 72.73%;
@@ -1585,7 +1385,6 @@ footer {
 }
 
 .footer-about-7 {
-    position: absolute;
     width: 77px;
     height: 18px;
     left: 72.73%;
@@ -1595,7 +1394,6 @@ footer {
 }
 
 .footer-about-8 {
-    position: absolute;
     width: 54px;
     height: 18px;
     left: 72.73%;
@@ -1605,7 +1403,6 @@ footer {
 }
 
 .footer-about-9 {
-    position: absolute;
     width: 66px;
     height: 18px;
     left: 72.73%;
@@ -1615,7 +1412,6 @@ footer {
 }
 
 .footer-store {
-    position: absolute;
     width: 180px;
     height: 172px;
     left: 36.81%;
@@ -1623,7 +1419,6 @@ footer {
 }
 
 .footer-store-name {
-    position: absolute;
     width: 44px;
     height: 20px;
     font-weight: bold;
@@ -1632,7 +1427,6 @@ footer {
 }
 
 .line-15 {
-    position: absolute;
     width: 80px;
     height: 2px;
     top: 18.6%;
@@ -1641,7 +1435,6 @@ footer {
 }
 
 .footer-store-1 {
-    position: absolute;
     width: 162px;
     height: 18px;
     bottom: 62.79%;
@@ -1650,7 +1443,6 @@ footer {
 }
 
 .footer-store-2 {
-    position: absolute;
     width: 124px;
     height: 18px;
     bottom: 45.35%;
@@ -1659,7 +1451,6 @@ footer {
 }
 
 .footer-store-3 {
-    position: absolute;
     width: 136px;
     height: 18px;
     bottom: 27.91%;
@@ -1668,7 +1459,6 @@ footer {
 }
 
 .footer-store-4 {
-    position: absolute;
     width: 180px;
     height: 36px;
     bottom: 0%;
@@ -1678,7 +1468,6 @@ footer {
 }
 
 .footer-credit {
-    position: absolute;
     width: 120px;
     height: 108px;
     right: 34.03%;
@@ -1686,7 +1475,6 @@ footer {
 }
 
 .footer-credit-name {
-    position: absolute;
     width: 85px;
     height: 20px;
     font-weight: bold;
@@ -1695,7 +1483,6 @@ footer {
 }
 
 .line-16 {
-    position: absolute;
     width: 120px;
     height: 2px;
     top: 29.63%;
@@ -1704,18 +1491,15 @@ footer {
 }
 
 .footer-credit-1, .footer-credit-2 {
-    position: absolute;
     width: 120px;
     height: 18px;
 }
 
 .footer-credit-image {
-    position: absolute;
     top: 11.11%;
 }
 
 .footer-credit-text {
-    position: absolute;
     width: 74px;
     height: 18px;
     left: 31.92%;
@@ -1724,17 +1508,14 @@ footer {
 }
 
 .footer-credit-1 {
-    position: absolute;
     bottom: 32.48%;
 }
 
 .footer-credit-2 {
-    position: absolute;
     bottom: 0%;
 }
 
 .footer-social {
-    position: absolute;
     width: 156px;
     height: 72px;
     right: 10.69%;
@@ -1742,7 +1523,6 @@ footer {
 }
 
 .footer-social-name {
-    position: absolute;
     width: 77px;
     height: 18px;
     font-weight: bold;
@@ -1751,7 +1531,6 @@ footer {
 }
 
 .line-17 {
-    position: absolute;
     width: 100px;
     height: 2px;
     top: 44.44%;
@@ -1761,48 +1540,40 @@ footer {
 
 .facebook, .instagram, .pinterest,
 .twitter, .snapchat, .linkedin {
-    position: absolute;
     width: 16px;
     height: 16px;
 }
 
 .facebook {
-    position: absolute;
     bottom: 0%;
 }
 
 .instagram {
-    position: absolute;
     left: 17.95%;
     bottom: 0%;
 }
 
 .pinterest {
-    position: absolute;
     left: 33.79%;
     bottom: 0%;
 }
 
 .twitter {
-    position: absolute;
     bottom: 0%;
     right: 35.9%;
 }
 
 .snapchat {
-    position: absolute;
     right: 17.95%;
     bottom: 0%;
 }
 
 .linkedin {
-    position: absolute;
     right: 0%;
     bottom: 0%;
 }
 
 .line-18 {
-    position: absolute;
     width: 1180px;
     height: 1px;
     left: 9.03%;
@@ -1812,7 +1583,6 @@ footer {
 }
 
 .copyright {
-    position: absolute;
     width: 249px;
     height: 15px;
     left: 9.03%;
